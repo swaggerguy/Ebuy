@@ -1,0 +1,73 @@
+@media only screen and (min-width: 400px) {
+
+    body{
+        background-color: lightblue;
+    }
+
+
+    .searchbox input{
+        width: 100px;
+
+
+        
+    }
+
+    .cardwrapper{
+        display: grid;
+        grid-template-columns: repeat(1fr );
+
+    }
+    
+    
+    .form-wrapper{
+        display: grid;
+        grid-template-columns: 2fr;
+        margin: 100px;
+    
+    
+    }
+
+    .form-wrapper button{
+        width: 100px;
+    }
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    body{
+        background-color: white;
+    }
+
+    .searchbox input{
+        width: 700px;
+
+    }
+
+    .cardwrapper{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .form-wrapper{
+        display: grid;
+        grid-template-columns: 2fr 2.4fr 0.1fr;
+        margin: 100px;
+    
+    
+    }
+    
+    .form-wrapper button{
+        width: 60px;
+    }
+}
+
+

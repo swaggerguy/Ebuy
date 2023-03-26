@@ -1,0 +1,181 @@
+.logo {
+    
+    display: grid;
+    grid-template-columns: 30% 10%;
+    
+
+
+}
+
+.logo img{
+    width: 700px;
+    object-fit: contain;
+
+    
+}
+
+.searchbox input {
+    height: 35px;
+    width: 700px; 
+    padding: 10px;
+    margin: 55px;
+    display: flex;
+
+}
+
+
+
+
+.dealcard{
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    margin: 40px;
+    text-align: center;
+    
+
+
+}
+
+
+
+
+.dealcard h6{
+    color:red ;
+}
+
+.texttop{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.dealcardtext p{
+    float: left;
+    
+}
+
+
+
+.cardwrapper{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.dealcardtext input {
+    padding: 5px;
+    margin: 2px;
+    background-color: red;
+    float: right;
+
+
+}
+
+
+
+.dropcard{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+
+
+.dropcard img{
+    width: 230px;
+}
+
+.form-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 2.4fr 0.1fr;
+    margin: 100px;
+
+
+}
+
+
+
+.form-wrapper button{
+    width: 60px;
+}
+
+.field input{
+    height: 40px;
+    width: 450px;
+}
+
+.card {
+    width: 1000px;
+    height: auto;
+    color: rgb(0, 0, 0);
+}
+
+.card img {
+    height: 40%;
+    width: 60%;
+    float: left;
+}
+
+.checkout{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textcheck{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+    grid-template-rows:8fr 0.1fr;
+    padding: 60px;
+
+
+}
+
+.textcheck h3{
+    padding:-10px;
+    margin:-5px;
+    
+}
+
+.textcheck button{
+    display: grid;
+    margin: -5px;
+    padding: -10px;
+    width: 400px;
+    
+    
+}
+
+.textcheck h4{
+    margin: 10px;
+    margin: -5px;
+}
+
+.card img{
+    border: 2px solid black;
+}
+
+.checkout{
+    background-color: lightblue;
+}
+
+.cardbtn{
+    float: right;
+    
+}
+
+.cardbtn a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.dealcardtext{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
